@@ -1,0 +1,63 @@
+/* Google Fonts Import Dosis and Exo */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600;700;800&family=Exo:wght@400;500;600;700&display=swap");
+
+/* General Styling, Tag Selectors */
+body {
+  font-family: "Exo", sans-serif;
+}
+h1 {
+  font-family: "Dosis", sans-serif;
+}
+h2 {
+  font-family: "Dosis", sans-serif;
+}
+
+p {
+  font-family: "Exo", sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+button:hover,
+.btn:hover,
+.btn-outline-dark:hover {
+  background-color: #8c3eff;
+  border-color: #8c3eff;
+}
+
+/* Navbar Styling */
+.bg-light {
+  background: rgb(189, 15, 225);
+  background: linear-gradient(
+    180deg,
+    rgba(189, 15, 225, 1) 0%,
+    rgba(17, 2, 66, 1) 40%
+  );
+}
+
+.navbar-brand {
+  margin-left: 5%;
+}
+
+.icon-nav {
+  margin: auto 3%;
+  color: #bd0fe1;
+}
+
+.icon-nav:hover {
+  color: #8c3eff;
+}
+
+.btn-nav {
+  margin: auto 5%;
+  border-color: #bd0fe1;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
