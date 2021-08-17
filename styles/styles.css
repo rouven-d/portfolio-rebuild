@@ -45,6 +45,11 @@ button:hover,
   margin-left: 5%;
 }
 
+.navbar-light .navbar-toggler {
+  border-color: #bd0fe1;
+  background-color: #bd0fe1;
+}
+
 .icon-nav {
   margin: auto 3%;
   color: #bd0fe1;
@@ -69,13 +74,12 @@ button:hover,
 
 .intro-bg {
   width: 100%;
-  height: 60vh;
 }
 
 .intro-title {
   position: relative;
-  padding-top: 5%;
-  font-size: 4rem;
+  padding: 5% 5% 0 5%;
+  font-size: 4.5rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -85,7 +89,7 @@ button:hover,
 
 .intro-subheading {
   position: relative;
-  margin-top: 2%;
+  padding: 2% 5% 0 5%;
   font-size: 2.25rem;
   font-weight: 600;
   color: #8c3eff;
@@ -95,4 +99,98 @@ button:hover,
 .intro-logo {
   text-align: center;
   padding-top: 2%;
+}
+
+/* About Section */
+#about {
+  width: 100%;
+  background-color: #0e0240;
+}
+
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-title {
+  padding: 8% 5% 0 5%;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about-text {
+  padding: 2% 5% 8% 5%;
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: #8c3eff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Project Section */
+#project-section {
+  width: 100%;
+  background: #0e0240;
+}
+
+.cards-bg {
+  background-image: url("../public/circuitLeft.svg"),
+    url("../public/circuitRight.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+
+.p-section-title {
+  padding: 8% 5% 0 5%;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff3366;
+  text-align: center;
+}
+
+.glass-card {
+  background: linear-gradient(
+    152.97deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(42px);
+  opacity: 0.95;
+  border-radius: 16px;
+  width: 80%;
+  margin: 5% auto;
+  padding-bottom: 3%;
+}
+
+.project-name {
+  margin: 10% 10%;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.project-tags {
+  margin: 10% 10%;
+  font-size: 2.25rem;
+  font: 600;
+  color: #8c3eff;
+}
+
+.project-button {
+  display: inline-block;
+  margin: 2% 10%;
+  border-color: #bd0fe1;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 250px;
+  height: 75px;
+}
+
+.project-img {
+  margin: auto;
 }
