@@ -4,7 +4,10 @@
 /* General Styling, Tag Selectors */
 body {
   font-family: "Exo", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
 }
+
 h1 {
   font-family: "Dosis", sans-serif;
 }
@@ -162,7 +165,7 @@ button:hover,
   opacity: 0.95;
   border-radius: 16px;
   width: 80%;
-  margin: 5% auto;
+  margin: 5% auto 0 auto;
   padding-bottom: 3%;
 }
 
@@ -193,4 +196,166 @@ button:hover,
 
 .project-img {
   margin: auto;
+}
+
+/* Technologies Section */
+#technologies {
+  width: 100%;
+  background: #0e0240;
+}
+
+.technologies-title {
+  padding: 16% 5% 0 5%;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.technologies-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.glass-elipse {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background: radial-gradient(
+    177.68% 177.68% at 74.11% 24.64%,
+    #8c3eff 0%,
+    #bd0fe1 38.54%
+  );
+  margin: 10% auto;
+}
+
+.icon-wrapper {
+  position: absolute;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Blockchain Section */
+#blockchain {
+  width: 100%;
+  background: #0e0240;
+}
+
+.blockchain-title {
+  padding: 16% 5% 0 5%;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.blockchain-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../public/worldmap.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blockchain-p {
+  padding: 2% 5% 8% 5%;
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: #8c3eff;
+  text-align: center;
+}
+
+.dfinity-button {
+  margin: 0 auto 4% auto;
+  border-color: #bd0fe1;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 250px;
+  height: 75px;
+}
+
+/* Contact Section */
+#contact {
+  width: 100%;
+  background: #0e0240;
+}
+
+.contact-title {
+  padding: 16% 5% 0 5%;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff3366;
+  text-align: center;
+}
+
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-p {
+  padding: 2% 5% 8% 5%;
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: #8c3eff;
+  text-align: center;
+}
+
+.contact-button {
+  margin: 0 auto 4% auto;
+  border-color: #bd0fe1;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 250px;
+  height: 75px;
+}
+
+/* Footer Section  */
+#footer {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(17, 2, 66, 1) 30%,
+    rgba(189, 15, 225, 1) 90%
+  );
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.footer-p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10% auto 2% auto;
+}
+
+.footer-icon {
+  display: inline-block;
+  color: #0e0240;
+  margin: 10% 5% 0% 5%;
+}
+
+.copyright {
+  margin: 5% auto 0 auto;
+  color: #0e0240;
+  font-weight: 600;
+  text-align: center;
 }

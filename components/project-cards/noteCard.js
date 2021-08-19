@@ -39,7 +39,7 @@ export default function NoteCard() {
             <div className="project-img">
               <Image
                 src={project2}
-                alt="react Quiz Project Mockup"
+                alt="Note Keeper App MockUp Screenshot"
                 width={800}
                 height={580}
               ></Image>
