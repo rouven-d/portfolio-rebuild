@@ -4,7 +4,7 @@ export default function BlockchainSection() {
       <section id="blockchain">
         <h2 className="blockchain-title">Hosted on the Blockchain</h2>
         <div className="blockchain-container">
-          <p className="blockchain-p">
+          <p className="blockchain-text">
             This website is hosted on a decentralised blockchain network, the
             internet computer by DFINITY. It’s open, censorship-resistant and
             decentralised. The Internet Computer Protocol is the first public

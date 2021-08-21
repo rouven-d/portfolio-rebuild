@@ -1,25 +1,19 @@
 import Image from "next/image";
-import project2 from "../../public/project2.svg";
+import project3 from "../../public/project3.svg";
 
-export default function NoteCard() {
+export default function HiroiCard() {
   return (
     <>
       <div className="glass-card">
         <div className="row">
           <div className="col col-lg-6 col-12">
-            <h3 className="project-name">Note Keeper App</h3>
-            <p className="project-tags">#React #MaterialUI #Heroku</p>
+            <h3 className="project-name">Hiroi.io</h3>
+            <p className="project-tags">#Marketing #Blog #Newsletter</p>
             <button
               type="button"
-              className="project-button btn btn-lg btn-outline-dark"
+              className="project-button btn btn-lg btn-outline-dark disabled"
             >
-              <a
-                href="https://github.com/rouven-d/Keeper-Note-App"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Code
-              </a>
+              <i className="button-disabled fas fa-ban fa-2x"></i>
             </button>
             <br></br>
             <button
@@ -27,7 +21,7 @@ export default function NoteCard() {
               className="project-button btn btn-lg btn-outline-dark"
             >
               <a
-                href="https://dazzling-ramanujan-696cdf.netlify.app/"
+                href="https://hiroi.io/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -38,8 +32,8 @@ export default function NoteCard() {
           <div className="col col-lg-6 col-12">
             <div className="project-img">
               <Image
-                src={project2}
-                alt="Note Keeper App MockUp Screenshot"
+                src={project3}
+                alt="hiroi.io project mockup"
                 width={800}
                 height={580}
               ></Image>

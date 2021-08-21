@@ -10,7 +10,7 @@ export default function Technologies() {
   return (
     <>
       <section id="technologies">
-        <h2 className="technologies-title">Technologies</h2>
+        <h2 className="technologies-title">Tech</h2>
         <div className="technologies-container">
           <div className="row">
             <div className="col col-lg-4 col-6">
@@ -51,9 +51,7 @@ export default function Technologies() {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="row">
             <div className="col col-lg-4 col-6">
               <div className="glass-elipse">
                 <div className="icon-wrapper">

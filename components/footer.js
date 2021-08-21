@@ -23,7 +23,6 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {" "}
                 <i className="footer-icon fab fa-github fa-4x"></i>
               </a>
 
@@ -32,7 +31,6 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {" "}
                 <i className="footer-icon fab fa-linkedin fa-4x"></i>
               </a>
 
@@ -41,7 +39,6 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {" "}
                 <i className="footer-icon fab fa-medium fa-4x"></i>
               </a>
             </div>

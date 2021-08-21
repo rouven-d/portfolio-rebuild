@@ -4,7 +4,7 @@ export default function ContactSection() {
       <section id="contact">
         <h2 className="contact-title">Contact Me</h2>
         <div className="contact-container">
-          <p className="contact-p">
+          <p className="contact-text">
             Interested in my work or just wanting to chat about web
             technologies, the Web 3.0 and much more? Feel free to reach out to
             me via Email or my social media channels. Looking forward to hearing
