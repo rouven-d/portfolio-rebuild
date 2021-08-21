@@ -11,6 +11,11 @@ export default function HiroiCard() {
               className="project-button btn btn-lg btn-outline-dark disabled"
             >
               <i className="button-disabled fas fa-ban fa-2x"></i>
+              <img
+                className="button-disabled"
+                src="Disabled.svg"
+                alt="disabled icon"
+              ></img>
             </button>
             <br></br>
             <button

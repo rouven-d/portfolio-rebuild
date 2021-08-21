@@ -19,7 +19,11 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="footer-icon fab fa-github fa-4x"></i>
+                <img
+                  className="footer-icon"
+                  src="github.svg"
+                  alt="Github Icon"
+                ></img>
               </a>
 
               <a
@@ -27,7 +31,11 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="footer-icon fab fa-linkedin fa-4x"></i>
+                <img
+                  className="footer-icon"
+                  src="linkedin.svg"
+                  alt="LinkedIn Icon"
+                ></img>
               </a>
 
               <a
@@ -35,7 +43,11 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="footer-icon fab fa-medium fa-4x"></i>
+                <img
+                  className="footer-icon"
+                  src="medium.svg"
+                  alt="Medium Icon"
+                ></img>
               </a>
             </div>
           </div>

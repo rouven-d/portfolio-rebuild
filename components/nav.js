@@ -29,7 +29,11 @@ export default function Nav() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="icon-nav fab fa-medium fa-2x"></i>
+                <img
+                  className="icon-nav"
+                  src="mediumNav.svg"
+                  alt="Medium Icon"
+                ></img>
               </a>
             </li>
             <li className="nav-item">
@@ -39,7 +43,11 @@ export default function Nav() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="icon-nav fab fa-github fa-2x"></i>
+                <img
+                  className="icon-nav"
+                  src="githubNav.svg"
+                  alt="Github Icon"
+                ></img>
               </a>
             </li>
           </ul>
