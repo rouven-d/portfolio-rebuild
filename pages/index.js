@@ -22,7 +22,10 @@ export default function Home() {
           property="og:image"
           content="https://github.com/rouven-d/rouven-d/blob/main/RDLogo.png"
         />
-        <meta property="og:url" content="" />
+        <meta
+          property="og:url"
+          content="https://hj3we-4yaaa-aaaah-qaofq-cai.raw.ic0.app"
+        />
       </Head>
 
       <main>
