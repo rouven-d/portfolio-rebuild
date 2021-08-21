@@ -1,6 +1,3 @@
-import Image from "next/image";
-import project2 from "../../public/project2.svg";
-
 export default function NoteCard() {
   return (
     <>
@@ -36,14 +33,11 @@ export default function NoteCard() {
             </button>
           </div>
           <div className="col col-lg-6 col-12">
-            <div className="project-img">
-              <Image
-                src={project2}
-                alt="Note Keeper App MockUp Screenshot"
-                width={800}
-                height={580}
-              ></Image>
-            </div>
+            <img
+              className="project-img"
+              src="project2.svg"
+              alt="Note Keeper project mockuo"
+            ></img>
           </div>
         </div>
       </div>

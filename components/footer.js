@@ -1,6 +1,3 @@
-import Image from "next/image";
-import logo from "../public/RDLogo.png";
-
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
@@ -8,14 +5,13 @@ export default function Footer() {
       <section id="footer">
         <div className="footer-container">
           <p className="footer-p">Build By</p>
-          <div className="footer-img-wrapper">
-            <Image
-              src={logo}
-              alt="Rouven Daunke Logo"
-              width={120}
-              height={120}
-            ></Image>
-          </div>
+
+          <img
+            className="footer-img"
+            src="RDLogo.png"
+            alt="Rouven Daunke Logo"
+          ></img>
+
           <div className="row">
             <div className="col-12">
               <a

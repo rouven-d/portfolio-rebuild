@@ -1,15 +1,11 @@
-import Image from "next/image";
-
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <Image
-            src="/RDLogo.png"
+          <img
+            src="RDLogo.png"
             alt="Rouven Daunke Personal Logo"
-            width={80}
-            height={80}
             className="nav-image"
           />
         </a>

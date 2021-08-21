@@ -53,6 +53,11 @@ button:hover,
   margin-left: 5%;
 }
 
+.nav-image {
+  width: 80px;
+  height: 80px;
+}
+
 .navbar-light .navbar-toggler {
   border-color: #bd0fe1;
   background-color: #bd0fe1;
@@ -78,6 +83,7 @@ button:hover,
 /* Intro Section */
 #intro {
   width: 100%;
+  text-align: center;
 }
 
 .intro-bg {
@@ -106,7 +112,9 @@ button:hover,
 
 .intro-logo {
   text-align: center;
-  padding-top: 2%;
+  margin: 2% auto;
+  width: 400px;
+  height: 400px;
 }
 
 /* About Section */
@@ -201,7 +209,8 @@ button:hover,
 }
 
 .project-img {
-  margin: auto;
+  width: 100%;
+  margin-top: 10%;
 }
 
 /* Technologies Section */
@@ -240,6 +249,8 @@ button:hover,
 .icon-wrapper {
   position: absolute;
   text-align: center;
+  width: 125px;
+  height: 125px;
   margin: 0;
   top: 50%;
   left: 50%;
@@ -347,6 +358,11 @@ button:hover,
   padding: 10% auto 2% auto;
 }
 
+.footer-img {
+  width: 150px;
+  height: 150px;
+}
+
 .footer-icon {
   display: inline-block;
   color: #0e0240;
@@ -370,6 +386,9 @@ button:hover,
   /* Project Section Adjustments */
   .glass-card {
     text-align: center;
+  }
+  .project-img {
+    margin-top: 5%;
   }
   /* Technologies Section Adjustments */
   .glass-elipse {

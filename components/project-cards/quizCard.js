@@ -1,6 +1,3 @@
-import Image from "next/image";
-import project1 from "../../public/project1.svg";
-
 export default function QuizCard() {
   return (
     <>
@@ -36,14 +33,11 @@ export default function QuizCard() {
             </button>
           </div>
           <div className="col col-lg-6 col-12">
-            <div className="project-img">
-              <Image
-                src={project1}
-                alt="react Quiz Project Mockup"
-                width={800}
-                height={580}
-              ></Image>
-            </div>
+            <img
+              className="project-img"
+              src="project1.svg"
+              alt="Quiz App project mockup"
+            ></img>
           </div>
         </div>
       </div>

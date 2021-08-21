@@ -1,6 +1,3 @@
-import Image from "next/image";
-import project3 from "../../public/project3.svg";
-
 export default function HiroiCard() {
   return (
     <>
@@ -30,14 +27,11 @@ export default function HiroiCard() {
             </button>
           </div>
           <div className="col col-lg-6 col-12">
-            <div className="project-img">
-              <Image
-                src={project3}
-                alt="hiroi.io project mockup"
-                width={800}
-                height={580}
-              ></Image>
-            </div>
+            <img
+              className="project-img"
+              src="project3.svg"
+              alt="hiroi.io project mockup"
+            ></img>
           </div>
         </div>
       </div>

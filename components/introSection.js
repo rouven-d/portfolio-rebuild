@@ -1,6 +1,3 @@
-import Image from "next/image";
-import logo from "../public/RDLogo.png";
-
 //Setup for Vanta background
 import { useEffect, useRef, useState } from "react";
 import NET from "vanta/dist/vanta.net.min.js";
@@ -42,14 +39,12 @@ export default function IntroSection() {
           <p className="intro-subheading">
             Web Development, Web Design, Web 3.0
           </p>
-          <div className="intro-logo">
-            <Image
-              src={logo}
-              alt="Rouven Daunke's Logo"
-              width={400}
-              height={400}
-            ></Image>
-          </div>
+
+          <img
+            className="intro-logo"
+            src="RDLogo.png"
+            alt="Rouven Daunke's Logo"
+          ></img>
         </div>
       </section>
     </>
