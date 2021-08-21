@@ -2,7 +2,7 @@
   "canisters": {
     "www": {
       "type": "assets",
-      "source": [".next"]
+      "source": ["out"]
     }
   }
 }
