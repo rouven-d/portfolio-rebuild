@@ -15,7 +15,7 @@ export default function ContactSection() {
             className="contact-button btn btn-lg btn-outline-dark"
           >
             <a
-              href="mailto:rouven.daunke@hiroi.io"
+              href="mailto:onions-farrier.0t@icloud.com"
               target="_blank"
               rel="noopener noreferrer"
             >
